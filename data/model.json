@@ -1,0 +1,17 @@
+{
+  "id": "seedream-5-0-flash",
+  "ext": "seedream-5-0-flash",
+  "source": "https://apimart.ai/en/pricing",
+  "extracted_at": "2026-10-12T09:50:53Z",
+  "prices": {
+    "default": {
+      "list": 0.017143,
+      "effective": 0.0137144
+    }
+  },
+  "rates": {},
+  "unit": "usd_per_image",
+  "aspect_ratios": "aspect-ratio presets plus exact pixel sizes (e.g. `2048x1024`)",
+  "result_link_ttl": "72 hours",
+  "reference_note": "Up to **10** reference images guide style, character appearance and composition."
+}
