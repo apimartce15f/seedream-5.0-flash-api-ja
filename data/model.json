@@ -1,17 +1,29 @@
 {
-  "id": "seedream-5-0-flash",
-  "ext": "seedream-5-0-flash",
+  "id": "gemini-3-pro-image-preview",
+  "alias": "nano-banana-pro-ext",
+  "official": "gemini-3-pro-image-preview-official",
   "source": "https://apimart.ai/en/pricing",
-  "extracted_at": "2026-10-12T09:50:53Z",
+  "extracted_at": "2026-10-13T06:48:10Z",
   "prices": {
     "default": {
-      "list": 0.017143,
-      "effective": 0.0137144
+      "list": 0.0375,
+      "effective": 0.03
+    },
+    "4K": {
+      "list": 0.05,
+      "effective": 0.04
     }
   },
-  "rates": {},
-  "unit": "usd_per_image",
-  "aspect_ratios": "aspect-ratio presets plus exact pixel sizes (e.g. `2048x1024`)",
-  "result_link_ttl": "72 hours",
-  "reference_note": "Up to **10** reference images guide style, character appearance and composition."
+  "official_prices": {
+    "per_million_tokens": {
+      "effective": {
+        "text_input": 1.6,
+        "cached_text_input": 0,
+        "image_input": 1.6,
+        "cached_image_input": 0,
+        "text_output": 9.6,
+        "image_output": 96
+      }
+    }
+  }
 }

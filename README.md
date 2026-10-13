@@ -40,11 +40,12 @@ Result links expire **72 hours** after completion.
 ## Pricing
 
 <!-- pricing:model:start -->
-| Output (per image) | List price | Effective price |
+| Output | List price | Effective price |
 | --- | --- | --- |
-| 1K / 1.5K / 2K (or exact pixels) | $0.017143 | $0.0137144 |
+| default | $0.0375 | $0.03 |
+| 4K | $0.05 | $0.04 |
 
-List price $0.017143; the effective rate reflects the standard discount tier.
+The token-billed official route bills per million tokens instead: `text_input` $1.60, `cached_text_input` free, `image_input` $1.60, `cached_image_input` free, `text_output` $9.60, `image_output` $96.00.
 <!-- pricing:model:end -->
 
 Generation is asynchronous — poll the task until it completes. Prices are a snapshot; the [最新の料金](https://go.apimart.ai/k-de2698) page and [`data/model.json`](data/model.json) are refreshed by CI, and a completed task reports the exact amount in its `cost` field.
